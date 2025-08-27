@@ -404,7 +404,7 @@ def optimize_constants(tree, X, y_true):
 def genetic_algorithm(X, y_true, pop_size=1500, generations=400, min_depth=2, max_depth=6, 
                      elite_fraction=0.05, stagnation_limit=50, grow_interval=20):
     """
-    Algoritmo genetico modificato con:
+    Algoritmo genetico con:
     1. Aggiunta di individui grow ogni 20 generazioni
     2. Sostituzione di metà popolazione dopo 50 generazioni senza miglioramenti
     3. Mantenimento del 5% di elite nella generazione della nuova popolazione
